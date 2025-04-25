@@ -224,7 +224,7 @@
             }
           };
           jQuery(function($) {
-            $("table .quantity__input:first").focus();
+            {% comment %} $("table .quantity__input:first").focus();
             $("[max]").change(function() {
               let max = parseInt($(this).attr("max"), 10);
               let value = parseInt($(this).val(), 10) || 0;
@@ -232,19 +232,19 @@
                 alert("We only have " + max + " of this item in stock");
                 $(this).val(max);
               }
-            });
+            }); {% endcomment %}
 
             {% comment %}
             quantity polyfill for legacy themes
             {% endcomment %}
-            {% if use_theme_colors == false %}
+            {% comment %} {% if use_theme_colors == false %}
             $(".quantity__button[name='plus']").click(function() {
               $(this).siblings(".quantity__input").get(0).stepUp();
             });
             $(".quantity__button[name='minus']").click(function() {
               $(this).siblings(".quantity__input").get(0).stepDown();
             });
-            {% endif %}
+            {% endif %} {% endcomment %}
 
 
             $(".dd-variant-to-cart").click(function() {
