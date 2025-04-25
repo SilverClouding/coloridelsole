@@ -72,6 +72,7 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 .who-qof-table__cell--img {
   width: 60px;
