@@ -2,7 +2,7 @@
   {% if use_theme_colors == true %}
     .who-qof-wrapper{--text-color:{{ settings.colors_text }};--text-color-rgb:{{ settings.colors_text | color_extract: 'red' }},{{ settings.colors_text | color_extract: 'green' }},{{ settings.colors_text | color_extract: 'blue' }};--background-color-1:{{ settings.colors_background_1 }};--background-color-2:{{ settings.colors_background_2 }};--accent-1:{{ settings.colors_accent_1 }};--accent-2:{{ settings.colors_accent_2 }};}
     {% else %}
-    .who-qof-wrapper{--text-color:#3a3a3a;--text-color-rgb:58,58,58;--background-color-1:#fff;--background-color-2:grey;--accent-1:#2c6ecb;--accent-2:#24249a;}
+    .who-qof-wrapper{--text-color:#3a3a3a;--text-color-rgb:58,58,58;--background-color-1:#fff;--background-color-2:#f7f7f7;--accent-1:#2c6ecb;--accent-2:#24249a;}
     {% endif %}
 </style>
 

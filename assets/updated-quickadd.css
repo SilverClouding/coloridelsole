@@ -72,6 +72,7 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 .who-qof-table__cell--img {
   width: 60px;
@@ -113,11 +114,18 @@ a.hide-variants {
 }
 .quantity {
   position: relative;
-  width: 133px;
   display: flex;
   min-height: 36px;
   opacity: 0.85;
 }
+
+@media (min-width: 990px) {
+  .quantity {
+    max-width: 10rem;
+    margin: 0 auto;
+  }
+}
+
 .quantity:after {
   content: "";
   position: absolute;
@@ -161,9 +169,13 @@ input[type="number"].quantity__input::-webkit-inner-spin-button {
   pointer-events: none;
   fill: currentColor;
 }
-@media (max-width: 960px) {
+@media (max-width: 989px) {
   .who-qof-table__cell {
-    font-size: 14px;
+    font-size: 12px;
+    gap: 1rem;
+  }
+  .who-qof-table__img {
+    width: 8rem;
   }
   .show-variants,
   .hide-variants {
@@ -178,24 +190,29 @@ input[type="number"].quantity__input::-webkit-inner-spin-button {
 
 /* mobile layout */
 @media screen and (max-width: 989px) {
+  .who-qof-table__row {
+    gap: 1rem;
+  }
   var-item {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    padding: 0 10px;
+    padding: 1rem;
+    gap: 1rem;
   }
 
   .info {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
     flex-direction: column;
-    width: 60%;
+    font-size: 1.2rem;
+    width: calc(100% - 15rem);
   }
 
   .row-variant {
     background-color: #f2f2f2;
-    padding: 0 10px;
+    padding: 10px;
     margin: 5px;
   }
 
@@ -208,8 +225,17 @@ input[type="number"].quantity__input::-webkit-inner-spin-button {
     text-overflow: ellipsis; /* Adds "..." at the end */
     max-width: 50%; /* Or set a fixed width like 200px if needed */
     display: block;
+    font-size: 1rem;
   }
   .who-qof-table__body {
     gap: 10px;
+  }
+
+  .img {
+    max-width: 5rem;
+  }
+
+  .quantity {
+    width: 10rem;
   }
 }
