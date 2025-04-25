@@ -204,10 +204,13 @@ class QuantityInput extends HTMLElement {
   onButtonClick(event) {
     event.preventDefault();
     const previousValue = this.input.value;
-
     event.target.name === "plus" ? this.input.stepUp() : this.input.stepDown();
     if (previousValue !== this.input.value)
       this.input.dispatchEvent(this.changeEvent);
+    const row = this.closest(".variant-matrix tbody tr");
+    if (row) {
+      updateRowTotal(row);
+    }
   }
 
   validateQtyRules() {
@@ -223,6 +226,18 @@ class QuantityInput extends HTMLElement {
       buttonPlus.classList.toggle("disabled", value >= max);
     }
   }
+}
+
+// Custom function to update the row total
+
+function updateRowTotal(row) {
+  let total = 0;
+  const inputs = row.querySelectorAll("input.variant-qty");
+  inputs.forEach((input) => {
+    total += parseInt(input.value) || 0;
+  });
+  const totalCell = row.querySelector(".variant-total");
+  if (totalCell) totalCell.textContent = total;
 }
 
 customElements.define("quantity-input", QuantityInput);
