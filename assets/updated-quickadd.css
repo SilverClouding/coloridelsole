@@ -105,12 +105,22 @@ a.hide-variants {
   border-right: 1px solid currentColor;
   width: 0.5em;
   height: 0.5em;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   display: inline-block;
   transition: 250ms;
+  transform-origin: right;
+  margin-left: 0.5rem;
 }
 .hide-variants .who-disc::after {
   transform: rotate(45deg);
+  content: "";
+  border-bottom: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+  width: 0.5em;
+  height: 0.5em;
+  transform: rotate(-45deg);
+  display: inline-block;
+  transition: 250ms;
 }
 .quantity {
   position: relative;
@@ -238,4 +248,55 @@ input[type="number"].quantity__input::-webkit-inner-spin-button {
   .quantity {
     width: 10rem;
   }
+}
+
+.who-qof-table__item td {
+  width: 20%;
+}
+
+.variant-matrix {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  table-layout: unset !important;
+}
+.variant-matrix th,
+.variant-matrix td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+.variant-matrix thead th {
+  background-color: #f5f5f5;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.variant-matrix td img {
+  border-radius: 6px;
+  margin-bottom: 0.3rem;
+}
+.variant-matrix input[type="number"] {
+  width: 50px;
+  padding: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+.variant-matrix td:last-child,
+.variant-matrix th:last-child {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #555;
+}
+.variant-matrix td:nth-last-child(2),
+.variant-matrix th:nth-last-child(2) {
+  white-space: nowrap;
+}
+.who-qof-wrapper .quantity button {
+  width: 20px;
+}
+.variant-matrix.p-hidden {
+  display: none;
 }
