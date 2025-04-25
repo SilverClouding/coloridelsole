@@ -105,12 +105,22 @@ a.hide-variants {
   border-right: 1px solid currentColor;
   width: 0.5em;
   height: 0.5em;
-  transform: rotate(-45deg);
+  transform: rotate(45deg);
   display: inline-block;
   transition: 250ms;
+  transform-origin: right;
+  margin-left: 0.5rem;
 }
 .hide-variants .who-disc::after {
   transform: rotate(45deg);
+  content: "";
+  border-bottom: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+  width: 0.5em;
+  height: 0.5em;
+  transform: rotate(-45deg);
+  display: inline-block;
+  transition: 250ms;
 }
 .quantity {
   position: relative;
