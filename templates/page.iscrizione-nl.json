@@ -1,0 +1,401 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "page_breadcrumbs_pHef4C": {
+      "type": "page-breadcrumbs",
+      "disabled": true,
+      "settings": {}
+    },
+    "slideshow_LWiJTq": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_nmkUHD": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Banner-Stampa-azienda.jpg",
+            "heading": "<strong>25 anni di passione siciliana</strong>",
+            "heading_text_color": "#ffffff",
+            "heading_text_color_mob": "#ffffff",
+            "heading_size": "h0",
+            "subheading": "",
+            "subheading_text_color": "#ffffff",
+            "subheading_text_color_mob": "#ffffff",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nmkUHD"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_NcRnCp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Vfq4Bp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Un viaggio tra tradizione, innovazione e amore per la Sicilia</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "caption_eyeAE7": {
+          "type": "caption",
+          "settings": {
+            "caption": "Artigianato made in Sicily",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_GCHtjh": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Colori del Sole nasce oltre 25 anni fa, </strong>ispirata dall'amore per la Sicilia e dal desiderio di portare nel mondo la sua bellezza ei suoi colori. </p><p>L'azienda prende vita grazie all'<strong>acquisizione di una vecchia<br/>stamperia serigrafica</strong>, dove forme e sfumature iniziano a raccontare la storia, la cultura e il territorio di questa terra unica. </p><p>Colori del Sole è molto più di un'azienda: è un progetto nato per trasmettere le emozioni e l'anima della Sicilia in ogni singolo prodotto.</p><p>Non solo un marchio, ma un modo di vivere e <strong>condividere l'amore per la nostra isola. </strong></p><p>Ogni creazione rappresenta una testimonianza del nostro impegno nel <strong>mantenere vive le tradizioni</strong>,<strong> rispettare l'ambiente e valorizzare l'artigianato locale</strong>. </p><p>Scegliere Colori del Sole significa portare con sé un pezzo autentico di Sicilia, un oggetto creato con passione e destinato a durare nel tempo, espressione di un territorio ricco di storia, cultura e bellezza. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vfq4Bp",
+        "caption_eyeAE7",
+        "text_GCHtjh"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "slideshow_XmJhrL": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_ieeaTX": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/MBW06810.jpg",
+            "heading": "<strong>L'arte della serigrafia manuale</strong>",
+            "heading_text_color": "#ffffff",
+            "heading_text_color_mob": "#ffffff",
+            "heading_size": "h0",
+            "subheading": "",
+            "subheading_text_color": "#121212",
+            "subheading_text_color_mob": "#121212",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ieeaTX"
+      ],
+      "disabled": true,
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "multirow_ReqHr7": {
+      "type": "multirow",
+      "blocks": {
+        "row_EF6w9w": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/strofinaccio-campagne-siciliane-ambientato_6f307867-6845-40cf-8082-b5b531e148bf.jpg",
+            "caption": "Lavorazione artigianale su tessuti.",
+            "heading": "",
+            "text": "<p>Colori del Sole è un’azienda artigianale fortemente legata al territorio, specializzata nella realizzazione di stampe su tessuti italiani di alta qualità. Le nostre creazioni racchiudono in un unico concetto unicità, tradizione, ricerca ed emozione.</p><p>Il cuore pulsante dell’azienda è fatto dalle nostre risorse umane che lavorano in sinergia, come in una grande famiglia, con lo scopo di rispondere scrupolosamente alle esigenze dei clienti.</p><p>È grazie a loro se oggi siamo in grado di proporre il nostro prodotto nei negozi Colori del Sole e presso i nostri partner, contribuendo a valorizzare e a promuovere l’immagine del nostro territorio.</p>",
+            "button_label": "GUARDA IL VIDEO",
+            "button_link": "https://cdn.shopify.com/videos/c/o/v/d5029fb605354873863b5fb50580a259.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "row_EF6w9w"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "small",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_LUUtAE": {
+      "type": "multirow",
+      "blocks": {
+        "row_6qcyiC": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/telo-d-arredo-franco-moca-dettaglio-tessuto_8bb889b9-b4ee-4e20-b8ea-dfa3e1d9aeb0.jpg",
+            "caption": "STAMPA SERIGRAFICA",
+            "heading": "",
+            "text": "<p>I tessuti Colori del Sole si distinguono per la stampa serigrafica unica. Creatività, tradizione e qualità guidano la nostra produzione artigianale, ispirata al patrimonio storico e culturale locale. Il nostro team lavora sinergicamente per soddisfare le esigenze dei clienti, permettendoci di promuovere l'immagine del nostro territorio attraverso i nostri prodotti nei <a href=\"/pages/punti-vendita\" title=\"Punti vendita\">negozi Colori del Sole</a> e presso i nostri partner.</p>",
+            "button_label": "SCOPRI I NOSTRI TESSUTI",
+            "button_link": "shopify://collections/tutti-i-prodotti"
+          }
+        }
+      },
+      "block_order": [
+        "row_6qcyiC"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_7cJHGP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mhNFPA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "caption_dgjXji": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Colori ad acqua. Tessuti naturali",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_RwAefb": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Ogni creazione di Colori del Sole nasce da un processo artigianale che rende ciascun pezzo unico. I nostri abili artigiani mantengono viva la tradizione della <strong>stampa serigrafica manuale</strong> , una tecnica antica che eseguiamo, secondo il metodo e la dedizione tramandati nel tempo. </p><p>Ogni dettaglio, <strong>dalla pressione delle mani alla quantità di colore</strong>, contribuisce a creare un prodotto irripetibile. Dalle prime collezioni di accessori per il mare, come <a href=\"/collections/teli-mare\" title=\"TELI MARE\">teli</a>, <a href=\"/products/pareo\" title=\"Pareo\">parei</a> e <a href=\"/collections/borse-ed-accessori\" title=\"BORSE & POCHETTE\">borse</a>, fino a tendaggi, copriletti, tovaglie e persino quadri tessili, ogni pezzo racconta una storia di passione, tradizione e bellezza.</p>"
+          }
+        },
+        "button_68MrKq": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify://collections",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "heading_WmqCNQ": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Sostenibili e responsabili per un futuro più verde</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "text_pNPKjc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Uno dei pilastri di Colori del Sole è il profondo impegno verso la sostenibilità ambientale. <strong>Utilizziamo colori ad acqua</strong>, che riducono al minimo l'impatto ambientale, e selezioniamo con cura<strong> tessuti natural</strong>i, come<strong> lino</strong> e<strong> cotone</strong>. </p><p>Il nostro processo produttivo artigianale riduce gli sprechi e limita l'uso delle risorse, mentre il<strong> packaging sostenibile </strong>privilegia materiali riciclabili e biodegradabili. </p><p>Siamo costantemente impegnati a migliorare le nostre pratiche, con l'obiettivo di preservare la nostra amata terra e contribuire a un futuro più verde.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mhNFPA",
+        "caption_dgjXji",
+        "text_RwAefb",
+        "button_68MrKq",
+        "heading_WmqCNQ",
+        "text_pNPKjc"
+      ],
+      "disabled": true,
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    },
+    "image_with_text_BTYd7N": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_m93wAk": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<strong>Store in Sicilia</strong>",
+            "heading_size": "h0"
+          }
+        },
+        "caption_CGdh6b": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "UN'ESPERIENZA IMMERSIVA",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "large"
+          }
+        },
+        "text_TbTzBk": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>La nostra rete di<a href=\"/pages/punti-vendita\" title=\"Punti vendita\"><strong> 15 punti vendita</strong>,</a> distribuiti nelle località turistiche più rinomate della Sicilia, offre ai visitatori un'esperienza unica. </p><p>Nei nostri negozi, i clienti possono immergersi in un mondo di colori, tessuti e tradizioni siciliane. Oltre ai nostri prodotti, selezioniamo con cura <strong>altre eccellenze artigianali locali,</strong> come <strong>ceramiche</strong> e<strong> gioielli</strong>, che raccontano la storia della Sicilia attraverso mani sapienti e materiali autentici.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_HXRigQ": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Vieni a trovarci",
+            "button_link": "shopify://pages/punti-vendita",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_m93wAk",
+        "caption_CGdh6b",
+        "text_TbTzBk",
+        "button_HXRigQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/scicli.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_qbGYN9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_dJCafa": {
+          "type": "heading",
+          "settings": {
+            "heading": "Un’attenzione speciale per <strong>chi crede nell’artigianato</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_ankAHR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Essere parte della nostra comunità significa accedere a <strong>vantaggi esclusivi.</strong><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dJCafa",
+        "text_ankAHR"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1732097669899ed0b0": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_breadcrumbs_pHef4C",
+    "slideshow_LWiJTq",
+    "rich_text_NcRnCp",
+    "slideshow_XmJhrL",
+    "multirow_ReqHr7",
+    "multirow_LUUtAE",
+    "rich_text_7cJHGP",
+    "image_with_text_BTYd7N",
+    "rich_text_qbGYN9",
+    "1732097669899ed0b0"
+  ]
+}

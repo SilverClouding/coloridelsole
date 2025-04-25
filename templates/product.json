@@ -1,0 +1,213 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_iNhniA": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Prodotto Ecosostenibile",
+            "icon": "recycle",
+            "content": "<p>I nostri prodotti vengono stampati utilizzando esclusivamente colori a base d'acqua, mentre il processo di smaltimento è attentamente gestito nel rispetto dell'ambiente.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_bhYBQX": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Guida al Lavaggio",
+            "icon": "washing",
+            "content": "<p>Per la cura del tessuto stampato a mano:</p><ul><li>Lavare delicatamente a 30°/40°C.</li><li>Separare i tessuti scuri.</li><li>Immergere il lino in acqua fredda prima del lavaggio.</li><li>Usare detersivo delicato, evitare candeggina.</li><li>Asciugare all'aria aperta, stirare moderatamente.</li><li>Evitare luce solare diretta</li></ul>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_atw6Di": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Prenditi cura dei nostri tessuti artigianali",
+            "icon": "washing",
+            "content": "<p>I nostri<strong> tessuti stampati a mano</strong> meritano una cura speciale per preservarne la bellezza.</p><p>Scopri la<a href=\"https://cdn.shopify.com/s/files/1/0724/8088/2956/files/istruzioni-lavaggio-it.pdf?v=1737455265\" target=\"_blank\" title=\"https://cdn.shopify.com/s/files/1/0724/8088/2956/files/istruzioni-lavaggio-it.pdf?v=1737455265\"> Guida al lavaggio</a></p>",
+            "page": ""
+          }
+        },
+        "sku_NKWXPb": {
+          "type": "sku",
+          "disabled": true,
+          "settings": {
+            "text_style": "uppercase"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "price",
+        "variant_picker",
+        "description",
+        "quantity_selector",
+        "buy_buttons",
+        "collapsible_tab_iNhniA",
+        "collapsible_tab_bhYBQX",
+        "collapsible_tab_atw6Di",
+        "sku_NKWXPb",
+        "share"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "background-1",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "<strong>Lasciati tentare!</strong>",
+        "heading_size": "h2",
+        "products_to_show": 8,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 44,
+        "padding_bottom": 48
+      }
+    },
+    "multicolumn_889RV9": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_P9WU6T": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Prodotti artigianali</strong>",
+            "text": "<p>Prodotti artigianali<br/>100%<strong> Made in Italy</strong></p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KhAmYD": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "title": "<strong>Servizio clienti</strong>",
+            "text": "<p>Hai bisogno di aiuto?<br/>Chiedi a noi</p>",
+            "link_label": "Scrivici in chat",
+            "link": "https://wa.me/+393756937199"
+          }
+        },
+        "column_yJEieH": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Fai un regalo</strong>",
+            "text": "<p>Richiedi una confezione<br/>regalo per i tuoi acquisti</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_dkY4f8": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Resi</strong>",
+            "text": "<p>Restituisci i prodotti entro 14 giorni dall'acquisto</p>",
+            "link_label": "Leggi di più",
+            "link": "shopify://policies/refund-policy"
+          }
+        }
+      },
+      "block_order": [
+        "column_P9WU6T",
+        "column_KhAmYD",
+        "column_yJEieH",
+        "column_dkY4f8"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "multicolumn_889RV9"
+  ]
+}

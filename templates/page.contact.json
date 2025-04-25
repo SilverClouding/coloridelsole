@@ -1,0 +1,135 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "page_breadcrumbs_WHLdta": {
+      "type": "page-breadcrumbs",
+      "settings": {}
+    },
+    "rich_text_97A4id": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GbKnHg": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>CONTATTACI</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "heading_VabHmc": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hai bisogno di noi?",
+            "heading_size": "h2"
+          }
+        },
+        "text_BF7i6b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Utilizza il form di contatto per inviarci un messaggio<br/>oppure utilizza uno dei recapiti riportati di seguito.</p>"
+          }
+        },
+        "text_9W4FGY": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_GbKnHg",
+        "heading_VabHmc",
+        "text_BF7i6b",
+        "text_9W4FGY"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_xGYVWA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_V3je3t": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>I NOSTRI RECAPITI</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_ttjaQK": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>EMAIL</strong>: <a href=\"mailto:info@coloridelsole.com\">info@coloridelsole.co</a>m<strong><br/>TELEFONO</strong>:  <a href=\"tel:+39928674386\" title=\"tel:+39928674386\">+39 091 8674386<br/></a></p>"
+          }
+        },
+        "caption_TJAm46": {
+          "type": "caption",
+          "settings": {
+            "caption": "Via delle Industrie, 8 90040 Isola delle Femmine (PA) Italy",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "caption_7pMJjD": {
+          "type": "caption",
+          "settings": {
+            "caption": "ORARI: Orari: lun- ven 9:00 – 17:00",
+            "text_style": "subtitle",
+            "text_size": "small"
+          }
+        }
+      },
+      "block_order": [
+        "heading_V3je3t",
+        "text_ttjaQK",
+        "caption_TJAm46",
+        "caption_7pMJjD"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "form": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 44
+      }
+    }
+  },
+  "order": [
+    "page_breadcrumbs_WHLdta",
+    "rich_text_97A4id",
+    "main",
+    "rich_text_xGYVWA",
+    "form"
+  ]
+}

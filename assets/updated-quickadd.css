@@ -1,0 +1,215 @@
+.who-qof-wrapper a:hover {
+  color: var(--text-color) !important;
+  text-decoration: underline;
+}
+
+.action-bar {
+  margin: 15px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action-bar.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+  flex-wrap: wrap;
+}
+
+.action-bar h1 {
+  margin: 0;
+}
+
+.action-bar h1:after {
+  display: none;
+}
+
+.action-bar.top .button {
+  margin: 0 0 0 auto;
+}
+.who-qof-wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  color: var(--text-color);
+}
+.who-qof-scroll {
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.who-qof-table--div,
+.who-qof-table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.who-qof-table__head,
+.who-qof-table__body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.who-qof-table__row {
+  display: flex;
+  align-items: stretch;
+  border-bottom: 1px solid rgba(var(--text-color-rgb), 0.08);
+  padding: 1rem 0;
+}
+.who-qof-table__row--head {
+  font-weight: bold;
+  background-color: var(--background-color-2);
+  letter-spacing: 0.13rem;
+  text-transform: uppercase;
+  color: rgba(var(--text-color-rgb), 0.75);
+}
+.who-qof-table__cell {
+  flex: 1;
+  padding: 0.5rem;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.who-qof-table__cell--img {
+  width: 60px;
+  padding: 0.5rem;
+}
+.who-qof-table__cell--qty {
+  justify-content: flex-end;
+  text-align: right;
+}
+.img img {
+  max-width: 50px;
+  height: auto;
+}
+.p-hidden {
+  display: none;
+}
+.row-variant > * {
+  transition: 250ms all ease;
+}
+a.show-variants,
+a.hide-variants {
+  color: var(--accent-1) !important;
+  text-decoration: none;
+  padding: 6px;
+  border: none;
+}
+.show-variants .who-disc::after {
+  content: "";
+  border-bottom: 1px solid currentColor;
+  border-right: 1px solid currentColor;
+  width: 0.5em;
+  height: 0.5em;
+  transform: rotate(-45deg);
+  display: inline-block;
+  transition: 250ms;
+}
+.hide-variants .who-disc::after {
+  transform: rotate(45deg);
+}
+.quantity {
+  position: relative;
+  width: 133px;
+  display: flex;
+  min-height: 36px;
+  opacity: 0.85;
+}
+.quantity:after {
+  content: "";
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  border: 0.1rem solid transparent;
+  box-shadow: 0 0 0 1px var(--text-color);
+  z-index: 1;
+  border-radius: 2px;
+}
+.quantity__input {
+  color: currentColor;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  padding: 0 0.5rem;
+  width: 100%;
+  flex-grow: 1;
+}
+input[type="number"].quantity__input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+.quantity__button {
+  width: 40px;
+  flex-shrink: 0;
+  font-size: 1.4rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-color);
+}
+.quantity__button svg {
+  width: 0.8rem;
+  pointer-events: none;
+  fill: currentColor;
+}
+@media (max-width: 960px) {
+  .who-qof-table__cell {
+    font-size: 14px;
+  }
+  .show-variants,
+  .hide-variants {
+    font-size: 12px;
+    padding: 0;
+    width: 6em !important;
+  }
+}
+.who-qof-table__cell.qo-sku {
+  display: block;
+}
+
+/* mobile layout */
+@media screen and (max-width: 989px) {
+  var-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+  }
+
+  .info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 60%;
+  }
+
+  .row-variant {
+    background-color: #f2f2f2;
+    padding: 0 10px;
+    margin: 5px;
+  }
+
+  .who-qof-table__item {
+    border: 1px solid #dfdfdf !important;
+  }
+  .qo-sku {
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden; /* Hides the overflow text */
+    text-overflow: ellipsis; /* Adds "..." at the end */
+    max-width: 50%; /* Or set a fixed width like 200px if needed */
+    display: block;
+  }
+  .who-qof-table__body {
+    gap: 10px;
+  }
+}

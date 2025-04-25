@@ -1,0 +1,295 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_xGBUJK": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_JaRXW6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-05_at_16.05.58.jpg",
+            "heading": "<strong>Tovaglie stampate a mano</strong>",
+            "heading_text_color": "#ffffff",
+            "heading_text_color_mob": "#121212",
+            "heading_size": "h2",
+            "subheading": "",
+            "subheading_text_color": "#ffffff",
+            "subheading_text_color_mob": "#121212",
+            "button_label": "Scopri di più",
+            "link": "shopify://collections/tovaglie-quadrate",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_8XJaa8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-04-05_at_16.00.47.jpg",
+            "heading": "<strong>Tovaglie rettangolari</strong>",
+            "heading_text_color": "#ffffff",
+            "heading_text_color_mob": "#121212",
+            "heading_size": "h2",
+            "subheading": "",
+            "subheading_text_color": "#ffffff",
+            "subheading_text_color_mob": "#121212",
+            "button_label": "Scopri di più",
+            "link": "shopify://collections/tovaglie",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_LxL8mB": {
+          "type": "slide",
+          "settings": {
+            "heading": "<strong>Tessuti stampati a mano</strong>",
+            "heading_text_color": "#ffffff",
+            "heading_text_color_mob": "#121212",
+            "heading_size": "h2",
+            "subheading": "",
+            "subheading_text_color": "#ffffff",
+            "subheading_text_color_mob": "#121212",
+            "button_label": "Scopri di più",
+            "link": "shopify://pages/punti-vendita",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_JaRXW6",
+        "slide_8XJaa8",
+        "slide_LxL8mB"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": ""
+      }
+    },
+    "rich_text_mNRmek": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bNTfEz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Accedi al catalogo esclusivo dedicato ai professionisti del settore",
+            "heading_size": "h1"
+          }
+        },
+        "button_JJhjzM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Invia richiesta di registrazione",
+            "button_link": "shopify://pages/registrazione-clienti-business",
+            "button_style_secondary": false,
+            "button_label_2": "Diventa Rivenditore",
+            "button_link_2": "shopify://pages/registrazione-clienti-business",
+            "button_style_secondary_2": true
+          }
+        },
+        "text_JMwYap": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Colori del Sole nasce <strong>oltre 25 anni fa</strong>, ispirata dall'amore per la Sicilia e dal desiderio di portare nel mondo la sua bellezza ei suoi colori. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bNTfEz",
+        "button_JJhjzM",
+        "text_JMwYap"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 44
+      }
+    },
+    "image_with_text_PEeBAz": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VQ9TiB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Arazzi stampati a mano",
+            "heading_size": "h2"
+          }
+        },
+        "text_jQVQBP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gli arazzi di Colori del Sole sono pezzi unici realizzati a mano, ispirati alla tradizione siciliana e ai suoi simboli più iconici. Ogni arazzo nasce da un disegno originale e viene stampato artigianalmente su tessuti di alta qualità. Sono perfetti per decorare con calore e autenticità ogni ambiente. Un connubio di arte, cultura e passione mediterranea.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_8dj4Ji": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://collections/arazzi",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_VQ9TiB",
+        "text_jQVQBP",
+        "button_8dj4Ji"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/arazzo-dama-grande-ambientato-iuta_236df515-61e6-4c7e-9e3a-5a2d42b612a4.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_4XDWDB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MiWGwk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tovaglie quadrate  in lino",
+            "heading_size": "h2"
+          }
+        },
+        "text_zk9eCC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Le tovaglie Colori del Sole portano in tavola tutta l’energia e il calore della Sicilia. <strong>Stampate a mano su tessuti naturali,</strong> sono impreziosite da disegni originali che raccontano storie di tradizione, natura e artigianato. Ogni pezzo è unico, realizzato con cura per aggiungere colore, stile e autenticità a ogni occasione. Perfette per chi ama la convivialità e vuole rendere speciale ogni momento a tavola.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_cQMBXe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://collections/arazzi",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MiWGwk",
+        "text_zk9eCC",
+        "button_cQMBXe"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/tovaglia-quadrata-melograno-caduta-frontale_c02516b3-8fdc-4108-8d65-2ebfeecc641a.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_PYmQMB": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_j7NGLL": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Made in Sicily</strong>",
+            "text": "<p>Artigianato stampato in Sicilia</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_H4L84M": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Reso garantito</strong>",
+            "text": "<p>Restituisci i prodotti<br/>entro 14 giorni dall'acquisto</p>",
+            "link_label": "",
+            "link": "shopify://policies/refund-policy"
+          }
+        },
+        "column_Yhmbti": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Spediamo nel mondo</strong>",
+            "text": "<p>Dalla Sicilia, ovunque tu sia</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_j7NGLL",
+        "column_H4L84M",
+        "column_Yhmbti"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "slideshow_xGBUJK",
+    "rich_text_mNRmek",
+    "image_with_text_PEeBAz",
+    "image_with_text_4XDWDB",
+    "multicolumn_PYmQMB"
+  ]
+}

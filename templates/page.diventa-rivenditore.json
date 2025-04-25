@@ -1,0 +1,67 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "page_breadcrumbs_RBYe74": {
+      "type": "page-breadcrumbs",
+      "settings": {}
+    },
+    "rich_text_NcRnCp": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Vfq4Bp": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Unisciti alla nostra famiglia</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_GCHtjh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Oltre a raggiungere direttamente i consumatori attraverso i nostri punti vendita, Colori del Sole ha costruito <strong>una solida rete di clienti B2B </strong>che condividono la nostra visione e filosofia di artigianato sostenibile. Questi partner commerciali non si limitano a esporre i nostri prodotti nei loro punti vendita, ma li propongono come vere e proprie esperienze da vivere. Ogni articolo diventa il simbolo di una storia unica, un racconto che parla di tradizione, passione e autenticità. <strong>I nostri partner B2B, sia in Italia che all'estero</strong>, sposano l'idea di offrire ai loro clienti non solo un prodotto, ma un pezzo di Sicilia intriso di storia e cultura. Questa collaborazione permette di amplificare la nostra missione, diffondendo la bellezza e l'artigianalità siciliana in tutto il mondo.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Vfq4Bp",
+        "text_GCHtjh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 4
+      }
+    },
+    "1711200735f2ef15b1": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_breadcrumbs_RBYe74",
+    "rich_text_NcRnCp",
+    "1711200735f2ef15b1"
+  ]
+}

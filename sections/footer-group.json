@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "brand_information_8PiKdL": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": false
+          }
+        },
+        "link_list_76TMf7": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Colori del Sole</strong>",
+            "menu": "footer"
+          }
+        },
+        "link_list_UCQraY": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>Per chi acquista</strong>",
+            "menu": "footer-info"
+          }
+        },
+        "link_list_qPLaQK": {
+          "type": "link_list",
+          "settings": {
+            "heading": "<strong>SERVIZIO CLIENTI</strong>",
+            "menu": "per-i-clienti"
+          }
+        },
+        "social_eTA8X8": {
+          "type": "social",
+          "settings": {
+            "heading": "<strong>Social</strong>"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_8PiKdL",
+        "link_list_76TMf7",
+        "link_list_UCQraY",
+        "link_list_qPLaQK",
+        "social_eTA8X8"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "newsletter_enable": false,
+        "newsletter_heading": "",
+        "enable_follow_on_shop": false,
+        "show_social": false,
+        "enable_country_selector": false,
+        "enable_language_selector": false,
+        "payment_enable": true,
+        "show_policy": false,
+        "margin_top": 64,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

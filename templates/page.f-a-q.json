@@ -1,0 +1,244 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "page_breadcrumbs_pHef4C": {
+      "type": "page-breadcrumbs",
+      "settings": {}
+    },
+    "1744219943425118f0": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "collapsible_content_AHqAMP": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_xeeFtm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Come posso accedere all’area riservata ai rivenditori?",
+            "icon": "none",
+            "row_content": "<p>Per accedere al catalogo e ai listini riservati è necessario registrarsi tramite il modulo di registrazione clienti business. Una volta approvata la tua richiesta, riceverai un’email per attivare il tuo account.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_d3CHKc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "A chi è riservato l’accesso al portale B2B?",
+            "icon": "none",
+            "row_content": "<p>Il portale è riservato a rivenditori, negozianti, concept store e organizzazioni interessate a rivendere i nostri prodotti artigianali.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ChY66Y": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quanto tempo richiede l'approvazione della registrazione?",
+            "icon": "none",
+            "row_content": "<p>Generalmente entro 24-48 ore. Ti contatteremo via email in caso fossero necessarie ulteriori informazioni.<br/><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_xeeFtm",
+        "collapsible_row_d3CHKc",
+        "collapsible_row_ChY66Y"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Accesso e Registrazione</strong>",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_d8EqAy": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_T7VGmE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Posso vedere i prodotti e i prezzi prima di registrarmi?",
+            "icon": "none",
+            "row_content": "<p>No, l’accesso ai prodotti e ai listini è riservato solo agli <strong>utenti registrati e approvati.<br/></strong><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fYJAzU": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "C’è un minimo d’ordine per acquistare?",
+            "icon": "none",
+            "row_content": "<p>Sì, il primo ordine prevede un minimo di acquisto. Il dettaglio ti sarà indicato dopo la registrazione. <br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_HMxcHH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Posso avere dei cataloghi prima di registrarmi?",
+            "icon": "none",
+            "row_content": "<p>Sì, è possibile richiedere i cataloghi anche prima di completare la registrazione. Per farlo, ti invitiamo a compilare l'apposito <a href=\"/pages/richiedi-cataloghi\" title=\"Richiedi Cataloghi\">modulo di richiesta</a> disponibile sul nostro sito. Attraverso questo form, potrai ricevere i cataloghi dedicati alla clientela business.<br/><br/><br/><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_T7VGmE",
+        "collapsible_row_fYJAzU",
+        "collapsible_row_HMxcHH"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Ordini e Catalogo</strong>",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_9hbDJU": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_PgNxee": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "I prezzi sono IVA inclusa?",
+            "icon": "none",
+            "row_content": "<p>No, i prezzi mostrati nell’area riservata sono <strong>IVA esclusa</strong>. L’IVA viene calcolata e aggiunta al momento del checkout.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LTyniT": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sono disponibili pagamenti differiti (es. 30 o 60 giorni)?",
+            "icon": "none",
+            "row_content": "<p>Sì, per alcuni clienti approvati offriamo condizioni di pagamento personalizzate (es. <strong>Net30, Net60, Net90</strong>). Contattaci per maggiori informazioni.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jGpXkt": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quali sono i tempi di spedizione?",
+            "icon": "none",
+            "row_content": "<p>La merce disponibile viene spedita entro 5-7 giorni lavorativi. Per prodotti realizzati su richiesta, i tempi possono variare.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_PgNxee",
+        "collapsible_row_LTyniT",
+        "collapsible_row_jGpXkt"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Prezzi e Pagamenti</strong>",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "collapsible_content_HCUL6d": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_gB8Vbw": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "In quali paesi spedite?",
+            "icon": "none",
+            "row_content": "<p>Spediamo in<strong> Italia e all’estero</strong>. Le condizioni di spedizione verranno indicate nel checkout.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rUYQyj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Sono disponibili pagamenti differiti (es. 30 o 60 giorni)?",
+            "icon": "none",
+            "row_content": "<p>Sì, per alcuni clienti approvati offriamo condizioni di pagamento personalizzate (es. <strong>Net30, Net60, Net90</strong>). Contattaci per maggiori informazioni.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_fk8gPh": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Quali sono le modalità di pagamento accettate?",
+            "icon": "none",
+            "row_content": "<p>Al momento accettiamo bonifico bancario. Altre modalità (come carta o PayPal) sono attivabili su richiesta.<br/><br/></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_gB8Vbw",
+        "collapsible_row_rUYQyj",
+        "collapsible_row_fk8gPh"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "<strong>Spedizioni e Tempi</strong>",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_breadcrumbs_pHef4C",
+    "1744219943425118f0",
+    "collapsible_content_AHqAMP",
+    "collapsible_content_d8EqAy",
+    "collapsible_content_9hbDJU",
+    "collapsible_content_HCUL6d"
+  ]
+}

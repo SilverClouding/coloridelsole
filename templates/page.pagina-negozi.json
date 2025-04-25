@@ -1,0 +1,471 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "page_breadcrumbs_feUQ9W": {
+      "type": "page-breadcrumbs",
+      "settings": {}
+    },
+    "rich_text_HrXLdC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_n6TFge": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "PUNTI VENDITA",
+            "heading_size": "h1"
+          }
+        },
+        "text_UminHp": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I nostri punti vendita, strategicamente distribuiti nei luoghi più suggestivi della Sicilia, offrono un'esperienza unica di shopping, arricchita dall'incontro con l'artigianato locale. Da Scicli<strong> </strong>a Taormina, da Ortigia a Cefalù, ogni tappa presso i Colori del Sole è <strong>un</strong> <strong>viaggio emozionante</strong> <strong>alla scoperta della bellezza e dell'autenticità siciliana.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_n6TFge",
+        "text_UminHp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 40
+      }
+    },
+    "multirow_mkNwqB": {
+      "type": "multirow",
+      "blocks": {
+        "row_rYM3fC": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/marina_colori.png",
+            "caption": "Palermo Marina",
+            "heading": "PALERMO",
+            "text": "<p>Affacciato sulla splendida Piazza Marina, a Palermo, sorge il nostro negozio. La posizione strategica, di fronte al Foro Italico e a due passi dal Teatro Massimo, rende il nostro negozio facilmente raggiungibile e la cornice ideale per una piacevole passeggiata tra cultura e shopping.</p>",
+            "button_label": "Maps & Info",
+            "button_link": "https://www.google.com/maps/place//data=!4m2!3m1!1s0x1319e56ac0819a15:0x51d95355d8300fc1?sa=X&ved=2ahUKEwjtnpSA6cGEAxWj3QIHHWYtDHEQ4kB6BAg8EAA&hl=it"
+          }
+        },
+        "row_eQUAF8": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/PALERMO_WAGNER.png",
+            "caption": "Palermo Wagner",
+            "heading": "PALERMO",
+            "text": "<p>Nel cuore pulsante di Palermo, a pochi passi dal Teatro Massimo e dalle vie dello shopping più rinomate, si trova lo store Colori del Sole di via Wagner. Un luogo incantato dove immergersi nella bellezza e nell'autenticità dell'artigianato siciliano.</p>",
+            "button_label": "Maps & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Wagner+(PA)/@38.1249883,13.3554627,17z/data=!3m1!4b1!4m6!3m5!1s0x1319ef9880b6825f:0x46e46bc25d5463!8m2!3d38.1249841!4d13.3580376!16s%2Fg%2F11kpdbgq7b?hl=it&entry=ttu"
+          }
+        },
+        "row_MKqjVV": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/20210401173355-cattedrale-di-palermo-sicilia-gettyimages-691244576-1.jpg",
+            "caption": "Palermo Mercurio",
+            "heading": "PALERMO",
+            "text": "<p>Nel cuore pulsante di Palermo, a pochi passi dalla Cattedrale, si trova lo store Colori del Sole, un'oasi di vivacità e creatività. Varcare la soglia del negozio significa immergersi in un caleidoscopio di colori e stampe, dove ogni capo racconta una storia unica, fatta di passione e tradizione artigianale.</p>",
+            "button_label": "Maps & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Mercurio+(PA)/@38.1179742,13.3669625,17z/data=!4m6!3m5!1s0x1319e5c2f8cf7ccb:0x6109d8f510a21fe4!8m2!3d38.1161281!4d13.3627606!16s%2Fg%2F11fmxt2c72?hl=it&entry=ttu"
+          }
+        },
+        "row_fhtzge": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/punto_vendita_cefalu.png",
+            "caption": "Colori del Sole Cefalù",
+            "heading": "CEFALÙ",
+            "text": "<p>A pochi passi dal Duomo e dal mare cristallino, si trova il nostro punto vendita di Cefalù. <strong>Un'oasi di vivacità</strong> dove immergersi in un caleidoscopio di stoffe pregiate, arazzi unici e accessori di design.</p>",
+            "button_label": "Map & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Cefal%C3%B9/@38.0390512,14.0194197,17z/data=!3m1!4b1!4m6!3m5!1s0x13173bc27efd98b5:0x7a754790bbd1258b!8m2!3d38.039047!4d14.0219946!16s%2Fg%2F11df0xcg8w?hl=it&entry=ttu"
+          }
+        },
+        "row_8yEDAT": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/CATANIA.png",
+            "caption": "Colori del Sole Catania",
+            "heading": "CATANIA",
+            "text": "<p>Vicino Piazza del Duomo e dalla fervida Via Etnea, si trova lo store Colori del Sole. Un'oasi di vivacità dove immergersi in un caleidoscopio di stoffe pregiate, arazzi unici e accessori di design. Ogni creazione è frutto di sapiente artigianalità e tradizione siciliana, impreziosita da colori vibranti e stampe esclusive.</p>",
+            "button_label": "Maps & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Catania/@37.5028875,15.0841334,17z/data=!3m1!4b1!4m6!3m5!1s0x1313e388c70240ed:0x7f3a9ac8dc4f489c!8m2!3d37.5028833!4d15.0890043!16s%2Fg%2F11k2p5b726?hl=it&entry=ttu"
+          }
+        },
+        "row_jFzx4a": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/punto_vendita_ragusa.png",
+            "caption": "Colori del Sole Ragusa",
+            "heading": "RAGUSA",
+            "text": "<p>Vicino al Duomo di San Giorgio e dalle principali attrazioni della città, si trova lo store Colori del Sole. Un'oasi di vivacità dove immergersi in un caleidoscopio di <strong>stoffe pregiate</strong>, <strong>arazzi unici</strong> e <strong>accessori di design</strong>. Ogni creazione è frutto di <strong>sapiente artigianalità</strong> e <strong>tradizione siciliana</strong>, impreziosita da <strong>colori vibranti</strong> e <strong>stampe esclusive</strong>.</p>",
+            "button_label": "Maps & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Ragusa/@36.9257303,14.7461215,17z/data=!3m1!4b1!4m6!3m5!1s0x13119978abb20495:0xa2bef43db21297dd!8m2!3d36.9257303!4d14.7461215!16s%2Fg%2F11df0xhw3z?hl=it&entry=ttu"
+          }
+        },
+        "row_fcdkxT": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/MODICA.png",
+            "caption": "Colori del Sole Modica",
+            "heading": "MODICA",
+            "text": "<p>Modica, città barocca incastonata tra le colline della Sicilia orientale, offre <strong>un mix unico di storia, cultura e delizie gastronomiche</strong>. Con le sue affascinanti strade acciottolate e i suoi palazzi rinascimentali, Modica è una tappa imprescindibile per gli amanti dell'arte e della buona cucina</p>",
+            "button_label": "Maps & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Modica/@36.8608379,14.7574102,17z/data=!3m1!4b1!4m6!3m5!1s0x131190b626f4bb7b:0xf092d201423d5dc3!8m2!3d36.8608336!4d14.7599851!16s%2Fg%2F11dyzlq4_f?hl=it&entry=ttu"
+          }
+        },
+        "row_WfYMmg": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/noto.png",
+            "caption": "Colori del Sole Noto",
+            "heading": "NOTO",
+            "text": "<p>Noto,<strong> gioiello del barocco siciliano</strong>, incanta i visitatori con le sue maestose chiese, le sfarzose piazze e le stradine fiancheggiate da palazzi nobiliari. <strong>Dichiarata Patrimonio dell'Umanità dall'UNESCO</strong>, Noto offre un'esperienza indimenticabile tra arte, cultura e tradizione, immersa nel suggestivo paesaggio della Sicilia orientale.</p>",
+            "button_label": "Maps & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Noto/@36.8916865,15.0648374,17z/data=!3m1!4b1!4m6!3m5!1s0x131229b1d7c6b0bf:0x5bedef675f331700!8m2!3d36.8916822!4d15.0674123!16s%2Fg%2F11fd3qz9ys?hl=it&entry=ttu"
+          }
+        },
+        "row_6Fy3te": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/punto_vendita_ragusa.png",
+            "caption": "Colori del Sole Castellamare",
+            "heading": "CASTELLAMMARE DEL GOLFO",
+            "text": "<p>Castellammare del Golfo, incantevole borgo sul mare della Sicilia occidentale, cattura i visitatori <strong>con il suo pittoresco porto</strong>, le strette vie lastricate e<strong> </strong>i<strong> vicoli che si inerpicano sulle colline</strong> circostanti. Con le sue acque cristalline e i suoi panorami mozzafiato, Castellammare del Golfo regala un'esperienza autentica e indimenticabile tra storia, natura e tradizioni siciliane.</p>",
+            "button_label": "Maps & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Castellamare+del+Golfo/@38.0279086,12.8787595,16z/data=!3m1!4b1!4m6!3m5!1s0x131983e20d7328d9:0x3351101292273c0c!8m2!3d38.0279044!4d12.8813344!16s%2Fg%2F11bzs5_42m?hl=it&entry=ttu"
+          }
+        },
+        "row_MLQnUF": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/siracusa.png",
+            "caption": "Colori del Sole Siracusa",
+            "heading": "SIRACUSA",
+            "text": "<p>Dai ruderi antichi del teatro greco all'isola pittoresca di Ortigia, Siracusa offre un <strong>mix ipnotico di fascino d'altri tempi e bellezza mediterranea.</strong> Esplora le sue strade tortuose, deliziati con l'squisita cucina di pesce e immergiti nell'atmosfera senza tempo di questa incantevole gemma costiera.</p>",
+            "button_label": "Map & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Castellamare+del+Golfo/@38.0279086,12.8787595,16z/data=!3m1!4b1!4m6!3m5!1s0x131983e20d7328d9:0x3351101292273c0c!8m2!3d38.0279044!4d12.8813344!16s%2Fg%2F11bzs5_42m?hl=it&entry=ttu"
+          }
+        },
+        "row_Beiige": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ORTIGIA.png",
+            "caption": "Colori del Sole Ortigia",
+            "heading": "ORTIGIA (SR)",
+            "text": "<p>Ortigia, il <strong>cuore antico di Siracusa</strong>, è un'isola incantevole che cattura l'essenza della Sicilia in ogni suo angolo. Con le sue stradine pittoresche, i suoi edifici storici e le sue piazze vivaci, Ortigia trasporta i visitatori in un viaggio nel tempo, offrendo <strong>un'esperienza unica tra storia, cultura e paesaggi mozzafiato.</strong> Con il suo fascino senza tempo e la sua bellezza intramontabile, Ortigia è un luogo da esplorare e da amare.</p>",
+            "button_label": "Map & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+Ortigia+-+Gagini/@37.063017,15.2900342,16z/data=!3m1!4b1!4m6!3m5!1s0x1313cd7b11cd5e93:0xd1c1e39e70bd72b4!8m2!3d37.0630127!4d15.2926091!16s%2Fg%2F11s_shj9s6?hl=it&entry=ttu"
+          }
+        },
+        "row_UtMVMr": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/TAORMINA.png",
+            "caption": "Colori del Sole Taormina",
+            "heading": "TAORMINA",
+            "text": "<p>Situata sulla costa orientale della Sicilia, Taormina è una perla tra mare e monti. Con il suo carattere elegante, storia<strong> ricca e paesaggi mozzafiato</strong>, attira visitatori da tutto il mondo. Tra le sue attrazioni si annoverano il <strong>Teatro Antico</strong> e una vibrante vita culturale. Taormina incanta con il suo mix di fascino storico e vivacità contemporanea.<br/></p>",
+            "button_label": "Map & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Taormina/@37.8510853,15.2812444,17z/data=!3m1!4b1!4m6!3m5!1s0x131411c570ac389d:0x6fefab62675ce24a!8m2!3d37.8510811!4d15.2838193!16s%2Fg%2F11v0xt7q15?hl=it&entry=ttu"
+          }
+        },
+        "row_cbxnTL": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/TRAPANI.png",
+            "caption": "Colori del Sole Trapani",
+            "heading": "TRAPANI",
+            "text": "<p>Trapani, sulla costa occidentale della Sicilia, è una città che affascina con il suo pittoresco porto, le sue chiese secolari e le spiagge mozzafiato. Con una ricca storia che risale all'antichità e una vibrante cultura marinara, Trapani è <strong>un incrocio di tradizioni, gusti e colori.</strong> Offrendo uno scenario mozzafiato sul Mar Mediterraneo e un'atmosfera accogliente, questa città è una destinazione da esplorare e ammirare.</p>",
+            "button_label": "Map & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Taormina/@37.8510853,15.2812444,17z/data=!3m1!4b1!4m6!3m5!1s0x131411c570ac389d:0x6fefab62675ce24a!8m2!3d37.8510811!4d15.2838193!16s%2Fg%2F11v0xt7q15?hl=it&entry=ttu"
+          }
+        },
+        "row_dpnqnY": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/SCICLI.png",
+            "caption": "Colori del Sole Scicli",
+            "heading": "SCICLI",
+            "text": "<p>Scicli, incastonata tra le dolci colline della Sicilia meridionale, è un gioiello nascosto ricco di storia, arte e cultura. Le sue affascinanti strade acciottolate, le <strong>maestose chiese barocche</strong> e gli <strong>antichi palazzi nobiliari</strong> raccontano storie secolari di splendore e tradizione. Con il suo carattere autentico e il fascino senza tempo, Scicli invita i visitatori a scoprire i suoi tesori nascosti e a immergersi nell'<strong>atmosfera unica di questa città incantevole.</strong></p>",
+            "button_label": "Map & Info",
+            "button_link": "https://www.google.com/maps/place/Colori+del+Sole+%7C+Scicli/@36.7931583,14.7050604,17z/data=!3m1!4b1!4m6!3m5!1s0x13119510e23de557:0x249aeeb04d3b04f4!8m2!3d36.793154!4d14.7076353!16s%2Fg%2F11h8dvwx0g?hl=it&entry=ttu"
+          }
+        }
+      },
+      "block_order": [
+        "row_rYM3fC",
+        "row_eQUAF8",
+        "row_MKqjVV",
+        "row_fhtzge",
+        "row_8yEDAT",
+        "row_jFzx4a",
+        "row_fcdkxT",
+        "row_WfYMmg",
+        "row_6Fy3te",
+        "row_MLQnUF",
+        "row_Beiige",
+        "row_UtMVMr",
+        "row_cbxnTL",
+        "row_dpnqnY"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "primary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    },
+    "rich_text_fK6QPG": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6j34tk": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Scegli lo Store</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_b9pwkU": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h3><strong>Seleziona lo store</strong></h3>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6j34tk",
+        "text_b9pwkU"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "collapsible_content_gFd6WM": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_RTer3P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Agrigento",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Agrigento</strong><br/>CAP: 92100<br/>Indirizzo: Via Atenea 173/179<br/><a href=\"mailto:agrigento@coloridelsole.com\" title=\"Manda una email\">Scrivi</a> al negozio</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_nCdqPr": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Catania",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Catania</strong><br/>CAP: 95131<br/>Indirizzo: Via Vittorio Emanuele II, 145<br/><a href=\"mailto:catania@coloridelsole.com\" title=\"mailto:catania@coloridelsole.com\">Scrivi</a> al negozio<br/><a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0x1313e388c70240ed:0x7f3a9ac8dc4f489c?sa=X&ved=1t:8290&hl=it&ictx=111\" target=\"_blank\" title=\"Guarda la mappa\"><strong>Guarda la Mappa</strong></a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Mr6Fd3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Castellammare del Golfo",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Castellammare del Golfo </strong>(TP)<br/>CAP: 91014<br/>Indirizzo: Corso Garibaldi, 2<br/>Scrivi al negozio<br/><a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0x131983e20d7328d9:0x3351101292273c0c?sa=X&ved=1t:8290&hl=it&ictx=111\" target=\"_blank\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_dehLpc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Cefalù",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Cefalù (PA)</strong><br/>CAP: 90015<br/>Indirizzo: Corso Ruggero, 117<br/><a href=\"mailto:cefalu@coloridelsole.com\" target=\"_blank\" title=\"Manda una email\">Scrivi</a> al negozio<br/><a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0x13173bc27efd98b5:0x7a754790bbd1258b?sa=X&ved=1t:8290&hl=it&ictx=111\" target=\"_blank\" title=\"Guarda la mappa\"><strong>Guarda la Mappa</strong></a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_7jVRNG": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Modica",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Modica (RG)</strong><br/>CAP: 97015<br/>Indirizzo: Corso Umberto, 142<br/><a href=\"mailto:modica@coloridelsole.com\" title=\"mailto:modica@coloridelsole.com\">Scrivi </a>al negozio<br/><a href=\"https://www.google.com/maps/place/Colori+del+Sole+%7C+Modica/@36.8608379,14.7574102,17z/data=!3m1!4b1!4m6!3m5!1s0x131190b626f4bb7b:0xf092d201423d5dc3!8m2!3d36.8608336!4d14.7599851!16s%2Fg%2F11dyzlq4_f?hl=it&entry=ttu\" target=\"_blank\" title=\"Guarda la mappa\"><strong>Guarda la Mappa</strong></a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_LEEM7P": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Noto",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Noto</strong><br/>CAP: 96017<br/>State: Siracusa<br/>Indirizzo: Corso Vittorio Emanuele, 67<br/><a href=\"mailto:noto@coloridelsole.com\" title=\"Manda una email\">Scrivi </a>al negozio<br/><a href=\"https://www.google.com/maps/place/Colori+del+Sole+%7C+Noto/@36.8916865,15.0648374,17z/data=!3m1!4b1!4m6!3m5!1s0x131229b1d7c6b0bf:0x5bedef675f331700!8m2!3d36.8916822!4d15.0674123!16s%2Fg%2F11fd3qz9ys?hl=it&entry=ttu\" title=\"Guarda la mappa\"><strong>Guarda la Mappa</strong></a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3gzWcc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Palermo (Marina)",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Palermo</strong><br/>CAP: 90100<br/>State: Palermo<br/>Indirizzo: Via Vittorio Emanuele, 89/91<br/><a href=\"mailto:palermomarina@coloridelsole.com\" title=\"mailto:palermomarina@coloridelsole.com\">Scrivi</a> al negozio<br/><a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0x1319e56ac0819a15:0x51d95355d8300fc1?sa=X&ved=2ahUKEwjtnpSA6cGEAxWj3QIHHWYtDHEQ4kB6BAg8EAA&hl=it\" title=\"Guarda la mappa\"><strong>Guarda la Mappa</strong></a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_pL77QX": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Palermo (Mercurio)",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Palermo</strong><br/>CAP: 90133<br/>Indirizzo: Via Vittorio Emanuele N. 262/264<br/><a href=\"mailto:palermomercurio@coloridelsole.com\" title=\"mailto:palermomercurio@coloridelsole.com\">Scrivi </a>al negozio<br/><a href=\"https://www.google.com/maps/place/Colori+del+Sole+%7C+Mercurio+(PA)/@38.1179742,13.3669625,17z/data=!4m6!3m5!1s0x1319e5c2f8cf7ccb:0x6109d8f510a21fe4!8m2!3d38.1161281!4d13.3627606!16s%2Fg%2F11fmxt2c72?hl=it&entry=ttu\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_9Npb6F": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Palermo (Wagner)",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Palermo</strong><br/>CAP: 90139<br/>Indirizzo: via Riccardo Wagner 11b<br/><a href=\"mailto:palermowagner@coloridelsole.com\" title=\"mailto:palermowagner@coloridelsole.com\">Scrivi </a>al negozio<br/><a href=\"https://www.google.com/maps/place/Colori+del+Sole+%7C+Wagner+(PA)/@38.1249883,13.3554627,17z/data=!3m1!4b1!4m6!3m5!1s0x1319ef9880b6825f:0x46e46bc25d5463!8m2!3d38.1249841!4d13.3580376!16s%2Fg%2F11kpdbgq7b?hl=it&entry=ttu\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rByexK": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Ragusa",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Ragusa (Ibla)</strong><br/>CAP: 97100<br/>Indirizzo: Corso XXV Aprile, 61<br/><a href=\"mailto:ragusaibla@coloridelsole.com\" title=\"mailto:ragusaibla@coloridelsole.com\">Scrivi</a> al negozio<br/><a href=\"https://www.google.com/maps/place/Colori+del+Sole+%7C+Ragusa/@36.9257303,14.7461215,17z/data=!3m1!4b1!4m6!3m5!1s0x13119978abb20495:0xa2bef43db21297dd!8m2!3d36.9257303!4d14.7461215!16s%2Fg%2F11df0xhw3z?hl=it&entry=ttu\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MJ4pRF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Scicli",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Scicli (RG)</strong><br/>CAP: 97018<br/>Indirizzo: Piazzetta Ficili, 2<br/><a href=\"mailto:scicli@coloridelsole.com\" title=\"mailto:scicli@coloridelsole.com\">Scrivi</a> al negozio<br/><a href=\"https://www.google.com/maps/place/Colori+del+Sole+%7C+Scicli/@36.7931583,14.7050604,17z/data=!3m1!4b1!4m6!3m5!1s0x13119510e23de557:0x249aeeb04d3b04f4!8m2!3d36.793154!4d14.7076353!16s%2Fg%2F11h8dvwx0g?hl=it&entry=ttu\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_f3wp79": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Siracusa (Gagini)",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Siracusa</strong><br/>CAP: 96100<br/>Indirizzo: Largo Antonello Gagini 5/6<br/><a href=\"mailto:ortigiagagini@coloridelsole.com\" title=\"mailto:ortigiagagini@coloridelsole.com\">Scrivi </a>al negozio<br/><a href=\"https://www.google.com/maps/place/Colori+del+Sole+Ortigia+-+Gagini/@37.0630127,15.2926091,16z/data=!3m1!4b1!4m6!3m5!1s0x1313cd7b11cd5e93:0xd1c1e39e70bd72b4!8m2!3d37.0630127!4d15.2926091!16s%2Fg%2F11s_shj9s6?hl=it&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Mj38iM": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Siracusa (Capodieci)",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Siracusa</strong><br/>CAP: 96100<br/>Indirizzo: Via Capodieci, 32/34<br/>Scrivi al negozio<br/><a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0x1313cc190f17d9b7:0x208d486b35e0b079?sa=X&ved=1t:8290&hl=it&ictx=111\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_gFjg8F": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Taormina",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Taormina (ME)</strong><br/>CAP: 98039<br/>Indirizzo: Via Giovanni di Giovanni, 20<br/><a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0x131411c570ac389d:0x6fefab62675ce24a?sa=X&ved=1t:8290&hl=it&ictx=111\" target=\"_blank\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_MkHcpe": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Trapani",
+            "icon": "map_pin",
+            "row_content": "<p>Città: <strong>Trapani</strong><br/>CAP:91100<br/>Indirizzo: Via Torrearsa, 1<br/><a href=\"mailto:trapani@coloridelsole.com\" title=\"mailto:trapani@coloridelsole.com\">Scrivi </a>al negozio<br/><a href=\"https://www.google.com/maps/place//data=!4m2!3m1!1s0x1319611236520dcd:0x783c7841885fbdd3?sa=X&ved=1t:8290&hl=it&ictx=111\" target=\"_blank\" title=\"Guarda la mappa\">Guarda la Mappa</a></p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_RTer3P",
+        "collapsible_row_nCdqPr",
+        "collapsible_row_Mr6Fd3",
+        "collapsible_row_dehLpc",
+        "collapsible_row_7jVRNG",
+        "collapsible_row_LEEM7P",
+        "collapsible_row_3gzWcc",
+        "collapsible_row_pL77QX",
+        "collapsible_row_9Npb6F",
+        "collapsible_row_rByexK",
+        "collapsible_row_MJ4pRF",
+        "collapsible_row_f3wp79",
+        "collapsible_row_Mj38iM",
+        "collapsible_row_gFjg8F",
+        "collapsible_row_MkHcpe"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "row",
+        "color_scheme": "background-1",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 100
+      }
+    }
+  },
+  "order": [
+    "main",
+    "page_breadcrumbs_feUQ9W",
+    "rich_text_HrXLdC",
+    "multirow_mkNwqB",
+    "rich_text_fK6QPG",
+    "collapsible_content_gFd6WM"
+  ]
+}
