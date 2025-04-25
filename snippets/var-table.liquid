@@ -48,11 +48,6 @@
   .variant-matrix th:nth-last-child(2) {
     white-space: nowrap;
   }
-
-  .who-qof-wrapper .quantity {
-    width: 104px;
-    margin: 0 auto;
-  }
   .who-qof-wrapper .quantity button {
     width: 20px;
   }
@@ -183,7 +178,7 @@
                 {% endif %}
               {% endfor %}
 
-              <td>
+              <td style="text-align: center;">
                 {% assign disabled = '' %}
                 {% assign max = '' %}
                 {% unless match_variant.inventory_management == blank or match_variant.inventory_policy == 'continue' %}
