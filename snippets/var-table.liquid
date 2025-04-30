@@ -14,30 +14,34 @@
     <tr>
       <th></th>
       <th>Variants</th>
-      {% assign sizes = '' %}
       {% if product.options.size > 1 %}
-        {% for variant in product.variants %}
-          {% unless sizes contains variant.options[1] %}
-            {% assign sizes = sizes | append: variant.options[1] | append: ',' %}
-          {% endunless %}
-        {% endfor %}
-      {% elsif product.options.size == 1 %}
-        {% for variant in product.variants %}
-          {% unless sizes contains variant.options[0] %}
-            {% assign sizes = sizes | append: variant.options[0] | append: ',' %}
-          {% endunless %}
+        {% assign sizes = '' %}
+        {% if product.options.size > 1 %}
+          {% for variant in product.variants %}
+            {% unless sizes contains variant.options[1] %}
+              {% assign sizes = sizes | append: variant.options[1] | append: ',' %}
+            {% endunless %}
+          {% endfor %}
+        {% elsif product.options.size == 1 %}
+          {% for variant in product.variants %}
+            {% unless sizes contains variant.options[0] %}
+              {% assign sizes = sizes | append: variant.options[0] | append: ',' %}
+            {% endunless %}
+          {% endfor %}
+        {% else %}
+          {% assign sizes = 'Default' %}
+        {% endif %}
+
+        {% assign size_array = sizes | split: ',' %}
+
+        {% for size in size_array %}
+          {% if size != '' %}
+            <th>{{ size }}</th>
+          {% endif %}
         {% endfor %}
       {% else %}
-        {% assign sizes = 'Default' %}
+        <th>Quantità</th>
       {% endif %}
-
-      {% assign size_array = sizes | split: ',' %}
-
-      {% for size in size_array %}
-        {% if size != '' %}
-          <th>{{ size }}</th>
-        {% endif %}
-      {% endfor %}
       <th>Prezzo</th>
       <th>Totale</th>
     </tr>
@@ -94,77 +98,157 @@
             {{ color }}
           </td>
 
-          {% for size in size_array %}
-            {% if size != '' %}
-              {% assign match_variant = false %}
+          {% if product.options.size > 1 %}
+            {% for size in size_array %}
+              {% if size != '' %}
+                {% assign match_variant = false %}
 
-              {% for variant in product.variants %}
-                {% if product.options.size == 2 %}
-                  {% if variant.options[0] == color and variant.options[1] == size %}
+                {% for variant in product.variants %}
+                  {% if product.options.size == 2 %}
+                    {% if variant.options[0] == color and variant.options[1] == size %}
+                      {% assign match_variant = variant %}
+                    {% endif %}
+                  {% elsif product.options.size == 1 %}
+                    {% if variant.options[0] == color or variant.options[0] == size %}
+                      {% assign match_variant = variant %}
+                    {% endif %}
+                  {% else %}
                     {% assign match_variant = variant %}
                   {% endif %}
-                {% elsif product.options.size == 1 %}
-                  {% if variant.options[0] == color or variant.options[0] == size %}
-                    {% assign match_variant = variant %}
-                  {% endif %}
-                {% elsif product.options.size == 0 %}
+                {% endfor %}
+
+                <td style="text-align: center;" data-var="{{ match_variant.title }}">
+                  {% assign disabled = '' %}
+                  {% assign max = '' %}
+                  {% unless match_variant.inventory_management == blank
+                    or match_variant.inventory_policy == 'continue'
+                  %}
+                    {% assign max = match_variant.inventory_quantity %}
+                    {% for item in cart.items %}
+                      {% if item.id == match_variant.id %}
+                        {% assign max = max | minus: item.quantity %}
+                      {% endif %}
+                    {% endfor %}
+                  {% endunless %}
+                  {%- unless match_variant.inventory_management == blank
+                    or match_variant.inventory_policy == 'continue'
+                  -%}
+                    {% if max < 1 %}{% assign disabled = 'disabled' %}{% endif %}
+                  {%- endunless -%}
+                  {%- assign cart_qty = cart
+                    | item_count_for_variant: product.selected_or_first_available_variant.id
+                  -%}
+
+                  <quantity-input class="quantity {{ disabled }}">
+                    <button class="quantity__button no-js-hidden" name="minus" type="button">
+                      <span class="visually-hidden">
+                        {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
+                      </span>
+                      {% render 'icon-minus' %}
+                    </button>
+
+                    <input
+                      class="quantity__input variant-qty"
+                      type="number"
+                      name="quantity"
+                      id="Quantity-{{ section.id }}"
+                      data-cart-quantity="{{ cart_qty }}"
+                      aria-label="{{ 'products.product.quantity.input_label' | t: product: product.title | escape }}"
+                      data-id="{{ match_variant.id }}"
+                      data-min="0"
+                      min="0"
+                      {% if match_variant.quantity_rule.max != null %}
+                        data-max="{{ match_variant.quantity_rule.max }}"
+                        max="{{ match_variant.quantity_rule.max }}"
+                      {% endif %}
+                      step="{{ match_variant.quantity_rule.increment }}"
+                      value="0"
+                    >
+                    <button class="quantity__button no-js-hidden" name="plus" type="button">
+                      <span class="visually-hidden">
+                        {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+                      </span>
+                      {% render 'icon-plus' %}
+                    </button>
+                  </quantity-input>
+                </td>
+              {% endif %}
+            {% endfor %}
+          {% else %}
+            {% comment %}
+              {% for size in size_array %}
+                {% if size != '' %}
+            {% endcomment %}
+            {% assign match_variant = false %}
+
+            {% for variant in product.variants %}
+              {% if product.options.size == 2 %}
+                {% if variant.options[0] == color and variant.options[1] == size %}
                   {% assign match_variant = variant %}
                 {% endif %}
+              {% elsif product.options.size == 1 %}
+                {% if variant.options[0] == color or variant.options[0] == size %}
+                  {% assign match_variant = variant %}
+                {% endif %}
+              {% else %}
+                {% assign match_variant = variant %}
+              {% endif %}
+            {% endfor %}
+
+            <td style="text-align: center;" data-var="{{ match_variant.title }}">
+              {% assign disabled = '' %}
+              {% assign max = '' %}
+              {% unless match_variant.inventory_management == blank or match_variant.inventory_policy == 'continue' %}
+                {% assign max = match_variant.inventory_quantity %}
+                {% for item in cart.items %}
+                  {% if item.id == match_variant.id %}
+                    {% assign max = max | minus: item.quantity %}
+                  {% endif %}
+                {% endfor %}
+              {% endunless %}
+              {%- unless match_variant.inventory_management == blank or match_variant.inventory_policy == 'continue' -%}
+                {% if max < 1 %}{% assign disabled = 'disabled' %}{% endif %}
+              {%- endunless -%}
+              {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
+
+              <quantity-input class="quantity {{ disabled }}">
+                <button class="quantity__button no-js-hidden" name="minus" type="button">
+                  <span class="visually-hidden">
+                    {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
+                  </span>
+                  {% render 'icon-minus' %}
+                </button>
+
+                <input
+                  class="quantity__input variant-qty"
+                  type="number"
+                  name="quantity"
+                  id="Quantity-{{ section.id }}"
+                  data-cart-quantity="{{ cart_qty }}"
+                  aria-label="{{ 'products.product.quantity.input_label' | t: product: product.title | escape }}"
+                  data-id="{{ match_variant.id }}"
+                  data-min="0"
+                  min="0"
+                  {% if match_variant.quantity_rule.max != null %}
+                    data-max="{{ match_variant.quantity_rule.max }}"
+                    max="{{ match_variant.quantity_rule.max }}"
+                  {% endif %}
+                  step="{{ match_variant.quantity_rule.increment }}"
+                  value="0"
+                >
+                <button class="quantity__button no-js-hidden" name="plus" type="button">
+                  <span class="visually-hidden">
+                    {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
+                  </span>
+                  {% render 'icon-plus' %}
+                </button>
+              </quantity-input>
+            </td>
+            {% comment %}
+              {% endif %}
               {% endfor %}
-
-              <td style="text-align: center;" data-var="{{ match_variant.title }}">
-                {% assign disabled = '' %}
-                {% assign max = '' %}
-                {% unless match_variant.inventory_management == blank or match_variant.inventory_policy == 'continue' %}
-                  {% assign max = match_variant.inventory_quantity %}
-                  {% for item in cart.items %}
-                    {% if item.id == match_variant.id %}
-                      {% assign max = max | minus: item.quantity %}
-                    {% endif %}
-                  {% endfor %}
-                {% endunless %}
-                {%- unless match_variant.inventory_management == blank
-                  or match_variant.inventory_policy == 'continue'
-                -%}
-                  {% if max < 1 %}{% assign disabled = 'disabled' %}{% endif %}
-                {%- endunless -%}
-                {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
-
-                <quantity-input class="quantity {{ disabled }}">
-                  <button class="quantity__button no-js-hidden" name="minus" type="button">
-                    <span class="visually-hidden">
-                      {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
-                    </span>
-                    {% render 'icon-minus' %}
-                  </button>
-
-                  <input
-                    class="quantity__input variant-qty"
-                    type="number"
-                    name="quantity"
-                    id="Quantity-{{ section.id }}"
-                    data-cart-quantity="{{ cart_qty }}"
-                    aria-label="{{ 'products.product.quantity.input_label' | t: product: product.title | escape }}"
-                    data-id="{{ match_variant.id }}"
-                    data-min="0"
-                    min="0"
-                    {% if product.selected_or_first_available_variant.quantity_rule.max != null %}
-                      data-max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                      max="{{ product.selected_or_first_available_variant.quantity_rule.max }}"
-                    {% endif %}
-                    step="{{ product.selected_or_first_available_variant.quantity_rule.increment }}"
-                    value="0"
-                  >
-                  <button class="quantity__button no-js-hidden" name="plus" type="button">
-                    <span class="visually-hidden">
-                      {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
-                    </span>
-                    {% render 'icon-plus' %}
-                  </button>
-                </quantity-input>
-              </td>
-            {% endif %}
-          {% endfor %}
+            {% endcomment %}
+          {% endif %}
 
           {% assign color_variant = product.variants | where: 'option1', color | first %}
           <td>{{ color_variant.price | money }}</td>
