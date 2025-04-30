@@ -65,9 +65,18 @@
 
     {% for color in color_array %}
       {% if color != '' %}
+        {% assign variant_for_color = product.variants | where: 'option1', color | first %}
         <tr>
           <td>
-            {% if product.featured_image %}
+            {% if variant_for_color.featured_image %}
+              <img
+                src="{{ variant_for_color.featured_image | img_url: '100x100' }}"
+                alt="{{ color }}"
+                width="100"
+                height="100"
+                style="max-width:50px;"
+              >
+            {% else %}
               <img
                 src="{{ product.featured_image | img_url: '100x100' }}"
                 alt="{{ color }}"
@@ -103,7 +112,7 @@
                 {% endif %}
               {% endfor %}
 
-              <td style="text-align: center;">
+              <td style="text-align: center;" data-var="{{ match_variant.title }}">
                 {% assign disabled = '' %}
                 {% assign max = '' %}
                 {% unless match_variant.inventory_management == blank or match_variant.inventory_policy == 'continue' %}
