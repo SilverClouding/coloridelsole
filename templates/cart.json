@@ -38,10 +38,48 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "17449899144891b0ce": {
+      "type": "apps",
+      "blocks": {
+        "flare_flare_cart_date_picker_Gj4RqY": {
+          "type": "shopify://apps/flare/blocks/flare_cart_date_picker/6aba17cb-0d38-4558-a192-544ecffccc2e",
+          "settings": {
+            "enable_dynamic_positioning": true,
+            "product": "",
+            "border_color": "#A5A5A5",
+            "border_width": 1,
+            "border_radius": 8,
+            "padding": 4,
+            "label_font_size": 14,
+            "label_font_weight": 500,
+            "label_color": "#000000",
+            "input_font_size": 15,
+            "input_font_weight": 400,
+            "input_color": "#000000",
+            "background_color": "#FFFFFF",
+            "zip_code_label": "Enter your ZIP code",
+            "zip_code_placeholder": "Enter your ZIP code",
+            "date_selector_label": "Select a delivery date",
+            "input_placeholder": "Select a date",
+            "country_label": "Select your country",
+            "gap_bottom": 5,
+            "gap_top": 5,
+            "time_slot_label": "Select a time slot"
+          }
+        }
+      },
+      "block_order": [
+        "flare_flare_cart_date_picker_Gj4RqY"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "cart-items",
-    "cart-footer"
+    "cart-footer",
+    "17449899144891b0ce"
   ]
 }
