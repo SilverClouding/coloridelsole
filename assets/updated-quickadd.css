@@ -253,6 +253,10 @@ input[type="number"].quantity__input::-webkit-inner-spin-button {
 .who-qof-table__item td {
   width: 20%;
 }
+.who-qof-table__item p {
+  padding: 0;
+  margin: 0;
+}
 
 .variant-matrix {
   width: 100%;

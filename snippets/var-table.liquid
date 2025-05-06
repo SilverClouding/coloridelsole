@@ -1,5 +1,3 @@
-<style></style>
-
 <table
   data-area="variant_tr"
   class="
@@ -71,25 +69,24 @@
       {% if color != '' %}
         {% assign variant_for_color = product.variants | where: 'option1', color | first %}
         <tr>
-          <td>
-            {% if variant_for_color.featured_image %}
-              <img
-                src="{{ variant_for_color.featured_image | img_url: '100x100' }}"
-                alt="{{ color }}"
-                width="100"
-                height="100"
-                style="max-width:50px;"
-              >
-            {% else %}
-              <img
-                src="{{ product.featured_image | img_url: '100x100' }}"
-                alt="{{ color }}"
-                width="100"
-                height="100"
-                style="max-width:50px;"
-              >
-            {% endif %}
-
+          <td class=" who-qof-table__img">
+            <a href="{{ product.url | collection }}">
+              {% if variant_for_color.featured_image %}
+                <img
+                  src="{{ variant_for_color.featured_image | img_url: '100x100' }}"
+                  alt="{{ color }}"
+                  width="100"
+                  height="100"
+                >
+              {% else %}
+                <img
+                  src="{{ product.featured_image | img_url: '100x100' }}"
+                  alt="{{ color }}"
+                  width="100"
+                  height="100"
+                >
+              {% endif %}
+            </a>
             {% if product.selected_or_first_available_variant.title == 'Default Title' %}
               <p>{{ product.title | escape }}</p>
             {% endif %}
